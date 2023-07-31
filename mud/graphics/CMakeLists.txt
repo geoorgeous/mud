@@ -1,0 +1,20 @@
+add_subdirectory(backend/opengl)
+add_subdirectory(backend/spirv)
+add_subdirectory(backend/vulkan)
+target_sources(mud PRIVATE
+    interface/deferred_renderer_base.cpp
+    interface/forward_renderer_base.cpp
+    interface/mesh_base.cpp
+    interface/render_pass_base.cpp
+    interface/render_sub_pass_base.cpp
+    interface/shader_module_base.cpp
+    interface/sprite_batch_renderer_base.cpp
+    interface/text_renderer_base.cpp
+    interface/texture_base.cpp
+    camera.cpp
+    color.cpp
+    font.cpp
+    material.cpp
+    mesh_factory.cpp
+    scene_graph.cpp
+)

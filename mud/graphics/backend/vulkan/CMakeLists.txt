@@ -1,0 +1,23 @@
+target_sources(mud PRIVATE
+    internal/vulkan_buffer.cpp
+    internal/vulkan_context.cpp
+    internal/vulkan_debug.cpp
+    internal/vulkan_descriptor_set.cpp
+    internal/vulkan_helpers.cpp
+    internal/vulkan_image.cpp
+    internal/vulkan_logical_device.cpp
+    internal/vulkan_physical_device.cpp
+    internal/vulkan_surface.cpp
+    internal/vulkan_swapchain.cpp
+    vulkan_application_graphics_context.cpp
+    vulkan_deferred_renderer.cpp
+    vulkan_forward_renderer.cpp
+    vulkan_mesh.cpp
+    vulkan_render_pass.cpp
+    vulkan_render_sub_pass.cpp
+    vulkan_shader_module.cpp
+    vulkan_sprite_batch_renderer.cpp
+    vulkan_text_renderer.cpp
+    vulkan_texture.cpp
+    vulkan_window_graphics_context.cpp
+)
