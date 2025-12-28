@@ -6,6 +6,9 @@
 
 # Mud Engine
 
+> [!IMPORTANT]
+> I'm no longer actively working on this project. I'm working on a new engine project written in C which can be found [here](../cx)
+
 This repo does not currently include the dependencies used for the project, or many of the resources that might be references in the source. See below for credits and download links.
 
 ## Features
